@@ -31,6 +31,10 @@ If you see **"Enter passcode and server IPv4:"** on screen, type your secret key
 ```
 password1! 192.168.0.1
 ``` 
+If you decided to change outline/config.yml for modifying user info or add more than one key, please restart docker-compose after your change with following code:
+```
+$ docker-compose restart
+```
 ## Outline VPN user info
     id: user1
     secret: password1!
