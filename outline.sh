@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chmod +x gen_key.sh
+
 apt install ca-certificates gnupg openssl
 
 rm -rf /etc/nftables.conf
@@ -40,6 +42,5 @@ echo "keys:
 echo "Starting OutlineVPN"
 docker-compose up -d
 docker ps -a
-chmod +x gen_key.sh
 
 
