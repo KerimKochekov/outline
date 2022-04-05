@@ -27,7 +27,7 @@ Moreover, if you see the setup.sh stuck on command **"Running setup.py bdist_whe
 $ ./outline.sh
 $ ./gen_key.sh
 ```
-If you see **"Enter passcode and server IPv4:"** on screen, type your secret key (it is given below, you can change it freely based on your preference) and server ip with space. For instance:
+If you see **"Enter passcode and server IPv4:"** on screen, type your secret key (it is given below, you can change it freely based on your preference in config.yml) and server ip with space. For instance:
 ```
 password1! 192.168.0.1
 ``` 
