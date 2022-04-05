@@ -6,8 +6,6 @@
 
 # Init setup
 
-sudo su -
-
 echo "Updating essential packages"
 apt update -y
 apt upgrade -y
