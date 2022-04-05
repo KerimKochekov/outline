@@ -40,5 +40,6 @@ echo "keys:
 echo "Starting OutlineVPN"
 docker-compose up -d
 docker ps -a
+chmod +x gen_key.sh
 
 
