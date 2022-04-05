@@ -9,8 +9,17 @@ $ sudo su -
 $ chmod +x setup.h
 $ ./setup.sh
 ```
-Once Paste the cryptic text from your local SSH public key: appears on screen, copy and paste public SSH key to it (for example, in my case: cat  ~/.ssh/sysadm_ed25519.pub) and Ctrl+D to move forward.
+Once **Paste the cryptic text from your local SSH public key:** appears on screen, copy and paste public SSH key to it (for example, in my case: cat  ~/.ssh/sysadm_ed25519.pub) and Ctrl+D to move forward.
+
+Moreover, if you see the setup.sh stuck on command **Running setup.py bdist_wheel for pynacl**, you can skip it with Ctrl+C to move forward (It usually takes 20-30 minutes based on performance of your machine, but from my experience, I did not see it is needed for our vpn server, so you can freely skip it)
 ```
 $ ./outline.sh
 $ ./gen_key.sh
 ```
+If you see **Enter passcode and server IPv4:** on screen, type your secret key (it is given below, you can change it freely based on your preference) and server ip with space. For instance:
+```
+password1! 192.168.0.1
+``` 
+## Outline VPN user info
+    id: user1
+    secret: password1!
