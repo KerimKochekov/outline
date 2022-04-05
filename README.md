@@ -6,6 +6,15 @@ ssh sysadm@<server-ip>
 ## Start setting vpn
 ```
 $ sudo su -
+```
+Clone the repo from github. For that first install git and clone it.
+```
+apt install git
+git clone https://github.com/KerimKochekov/outline
+```
+Move to repo directory.
+```
+$ cd outline
 $ chmod +x setup.h
 $ ./setup.sh
 ```
